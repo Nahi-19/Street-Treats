@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/*Backgroung Image */
+body {
+    background: url(Street\ Treats.jpg); 
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+/* Navigation Bar */
+.nav-bar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-bar li a:hover {
+    color: orangered;
+}
+
+/* Header Section */
+.header {
+    margin-top: 20px;
+}
+
+.header h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+/* Menu Section */
+.menu .contact .aboutus {
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.menu h2, .contact h2, .aboutus h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.menu-items, .combo-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item, .combo {
+    background: rgba(208, 208, 41, 0.721);
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.item h3, .combo h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.item p, .combo p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact p, .aboutus p {
+    font-size: 18px;
+    line-height: 1.5;
+}
