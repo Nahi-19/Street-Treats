@@ -97,3 +97,9 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
