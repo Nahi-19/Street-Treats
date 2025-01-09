@@ -102,5 +102,5 @@ footer {
     color: white;
     text-align: center;
     background-color: black;
-    position: fixed;
+    position: flex;
 }
